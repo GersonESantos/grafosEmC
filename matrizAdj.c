@@ -27,3 +27,16 @@ void adicionarVertice(Grafo *g) {
         printf("Número máximo de vértices atingido.\n");
     }
 }
+
+int main(void) {
+    Grafo g;
+    inicializarGrafo(&g);
+
+    // Adiciona dois vértices como exemplo
+    adicionarVertice(&g);
+    adicionarVertice(&g);
+
+    printf("Número de vértices: %d\n", g.num_vertices);
+
+    return 0;
+}
