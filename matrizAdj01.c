@@ -4,7 +4,8 @@
 #define QTD_VERTICES 4 // Definir o número de vértices
 
 // Estrutura de grafo
-typedef struct {
+typedef struct 
+{
     int matriz[QTD_VERTICES][QTD_VERTICES]; // Matriz de adjacência
     int num_vertices; // Número de vértices no grafo
 } Grafo;
@@ -62,7 +63,7 @@ void removerAresta(Grafo *g, int v1, int v2) {
 
 // --- FUNÇÃO ADICIONADA DA IMAGEM ---
 void exibirMatriz(Grafo *g) {
-    printf("\nMatriz de Adjacencia do Grafo:\nVertices----");
+    printf("\nMatriz de Adjacencia do Grafo:\nVertices---");
     
     // Cabeçalho com os índices das colunas
     for (int i = 0; i < g->num_vertices; i++) {
