@@ -1,0 +1,9 @@
+BFS(G,s)
+1  for cada vértice u∈V[G] - {s}
+2       u.cor = BRANCO
+3       u.d = ∞
+4       u.π = NULO
+5  s.cor = CINZA
+6  s.d = 0
+7  s.π = NULO
+8  Q = ∅
