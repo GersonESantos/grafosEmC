@@ -1,4 +1,7 @@
 {
   "editor.formatOnSave": false,
-  "editor.formatOnSaveMode": "modificationsIfAvailable"
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "terminal.integrated.env.windows": {
+    "Path": "${env:Path};C:\\msys64\\ucrt64\\bin"
+  }
 }
