@@ -1,4 +1,4 @@
-//Procedimento de búsqueda en profundidad (DFS-Depth Frist Search) para grafos representados con listas de adyacencia
+//Procedimento de búsca em profundidade (DFS-Depth Frist Search) para grafos representados con listas de adyacencia
 #include <stdio.h>
 #include <stdlib.h>
 
